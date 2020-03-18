@@ -1,4 +1,4 @@
-import "./arreglos_Resuelto.js"
+import "./arreglos_Resuelto.js.js"
 
 var letrasMesesDelAño = mesesDelAño.map(
   function(mes){
