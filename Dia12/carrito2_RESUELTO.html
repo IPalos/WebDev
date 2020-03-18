@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<ul id="carrito"></ul>
+<input type="text" id="elemento">
+<button onclick="agregarElemento()">Agregar</button>
+<button onclick="eliminarElemento()">Eliminar</button>
+<p id="demo"></p>
+
+
+<script>
+var carrito=[]
+
+function agregarElemento(){
+  carrito.push(document.getElementById("elemento").value)
+  mostrarCarrito()
+
+  
+}
+function eliminarElemento() {
+  carrito.pop()
+  mostrarCarrito()
+
+}
+function mostrarCarrito(){
+  document.getElementById("carrito").innerHTML = ""
+  for (var i = 0; i < carrito.length; i++) {
+  document.getElementById("carrito").innerHTML +="<li>"+carrito[i]+"</li>" ;
+}
+}
+
+</script>
+
+</body>
+</html>

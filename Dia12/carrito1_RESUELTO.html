@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+<ul id="carrito"></ul>
+<input type="text" id="elemento">
+<button onclick="agregarElemento()">Agregar</button>
+<p id="demo"></p>
+
+
+<script>
+function agregarElemento(){
+  a=document.getElementById("elemento").value
+  document.getElementById("carrito").innerHTML += "<li>"+a+"</li>";
+  
+}
+function eliminarElemento() {
+  
+
+}
+</script>
+
+</body>
+</html>
