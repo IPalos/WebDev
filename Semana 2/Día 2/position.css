@@ -1,0 +1,17 @@
+body {
+  background-color: grey;
+}
+.bm {
+  width: 50%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 20px;
+  border: 5px dashed;
+  border-color: darkred;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  display: block;
+  position: relative;
+  top: 150px;
+}

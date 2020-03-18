@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.parallax {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/7b/Earth_Western_Hemisphere.jpg');
+
+  height: 100%;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.prep {
+  height: 100px;
+  background-color: grey;
+}
+
+.prep2 {
+  height: 500px;
+  background-color: orange;
+}
