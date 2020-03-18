@@ -1,0 +1,34 @@
+.square {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.square_blank {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.s1:hover {
+  background-color: green;
+}
+.s2:hover {
+  background-color: blue;
+  transform: rotate(45deg);
+}
+.s3:hover {
+  background-color: yellow;
+  border-radius: 50%;
+}
+.s4 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.s4:hover {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+}

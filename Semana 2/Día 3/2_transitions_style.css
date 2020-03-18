@@ -1,0 +1,48 @@
+.square {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  background-color: red;
+}
+.square_blank {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+}
+
+.s1 {
+  transition: background-color 2s;
+}
+.s1:hover {
+  background-color: green;
+}
+
+.s2 {
+  transition: transform 2s;
+}
+.s2:hover {
+  background-color: blue;
+  transform: rotate(45deg);
+}
+
+.s3 {
+  transition: border-radius 2s, background-color 2s;
+}
+.s3:hover {
+  background-color: yellow;
+  border-radius: 50%;
+}
+
+.s4 {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  transition: width 2s, height 2s, margin 2s, margin-top 2s;
+}
+.s4:hover {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  margin-top: 50px;
+  margin-left: 50px;
+}
